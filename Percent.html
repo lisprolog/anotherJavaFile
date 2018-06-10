@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+	<p>Programmierer * 100</p>
+	<input type="text" id="input1" />
+	<p>Bevölkerung</p>
+	<input type="text" id="input2" />   
+
+	<script>
+		function calc(){
+			var1 = parseInt(document.getElementById("input1").value);
+			var2 = parseInt(document.getElementById("input2").value);
+			var result = 0;
+			result = var1 * 100;
+			var result2 = 0;
+			result2 = result / var2;
+			document.getElementById("output").value = result2;
+	}
+	</script>
+
+	<p><input id = "Result" type="button" value= "Result:" onclick= "calc();"/></p>
+	<input type=result2 id="output" />
+
+</body>
+</html>
