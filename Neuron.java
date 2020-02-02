@@ -33,6 +33,10 @@ public class Neuron{
         this.z = this.x * this.x_w + this.y * this.y_w + this.bias;
     }
     
+    public int heaviside(double v){
+        return (v < 0) ? 0: 1;
+    }
+
     public double getZ(){
         return this.z;
     }
