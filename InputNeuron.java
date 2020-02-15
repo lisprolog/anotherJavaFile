@@ -14,4 +14,8 @@ public class InputNeuron{
 	hn.sub();
     }
 
+    public double getValue(){
+	return value;
+    }
+    
 }

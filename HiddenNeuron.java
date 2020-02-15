@@ -24,4 +24,12 @@ public class HiddenNeuron{
     public double getValue(){
 	return this.value;
     }
+
+    public void heaviside(){
+	if(this.value < 0){
+	    this.value = 0;
+	}else{
+	    this.value = 1;
+	}
+    }
 }

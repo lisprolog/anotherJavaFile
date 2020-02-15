@@ -14,8 +14,16 @@ public class OutputNeuron{
 	value -= 0.5;
     }
     
-    public double toPrint(){
+    public double getValue(){
 	return this.value;
+    }
+
+    public void heaviside(){
+	if(this.value < 0){
+	    this.value = 0;
+	}else{
+	    this.value = 1;
+	}
     }
 }
 
