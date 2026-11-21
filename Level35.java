@@ -89,8 +89,8 @@ public class Level35{
         *   find an area of ones(1) in a picture of zeros(0)
         *   count the ones in horizontal
         *   count the ones in vertical
-        *   if length of horizontal and vertical(width and height) are identical: it's a square 
-        *   else a circle
+        *   if length of horizontal and vertical(width and height) are identical: it's a circle 
+        *   else a square
         *   if it is a square, delete the square and square counter up
         *   else it is a circle, therefore we fill the circle with zeros and circle counter up
         *   last we print out both counters
